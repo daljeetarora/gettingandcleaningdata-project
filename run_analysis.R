@@ -39,14 +39,14 @@ features.txt.file_tb <- read.table(features.txt.file)
 
 
 #extract only the names i.e. second column
-a <- features.txt.file_tb[, 2]
+features_txt_names <- features.txt.file_tb[, 2]
 
-adf <- as.data.frame(a)
+features_txt_names_df <- as.data.frame(features_txt_names)
 
-tr <- t(adf)
+features_txt_names_df <- t(features_txt_names_df)
 
 
-colnames(test_train_dataset)[3:563] <- tr
+colnames(test_train_dataset)[3:563] <- features_txt_names_df
 colnames(test_train_dataset)[1:2] <- c("subject", "activity")
 
 
@@ -102,8 +102,6 @@ for(activity_index in 1:nrow(activity_labels_tb)) {
       act_label <- activity_labels_tb[activity_index, 2]
       act_label <- as.vector(act_label)
       
-      #print(act_label)
-      #print(subject_index)
       
       avgCalcDF <- step2DataSet[step2DataSet$activity == act_label & step2DataSet$subject == subject_index, ]
       variableMeans <- colMeans(avgCalcDF[3:81])
@@ -124,22 +122,7 @@ for(activity_index in 1:nrow(activity_labels_tb)) {
   }
 }
 
+#got the final tidy dataset/ write it into csv file
 opfile_csv <- ".\\op.csv"
 write.csv(avgDataSet, opfile_csv, row.names = FALSE, quote = FALSE)
-
-# avgCalcDF <- step2DataSet[step2DataSet$activity == "WALKING" & step2DataSet$subject == 30, ]
-# variableMeans <- colMeans(avgCalcDF[3:81])
-# variableMeans is not a df ..Its Named num ..Convert to df .. we will use
-# it to rbind to form the final data set
-
-# variableMeansdf <- as.data.frame(variableMeans)
-
-# # variableMeansdf contains rows & one col .. so transpose it
-
-# variableMeansdf <- t(variableMeansdf)
-
-#subject_act_df <- data.frame(subject = 30, activity = "WALKING")
-
-#avgDataSet <- cbind(subject_act_df, variableMeansdf)
-
 
