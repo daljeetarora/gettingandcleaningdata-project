@@ -1,13 +1,6 @@
 
-# adding in guthub
 
 #C:\\Amdocs\\Big Data\\Coursera\\Getting and Cleaning Data\\Project\\UCI HAR Dataset\\test
-
-#C:\\Amdocs\\Big Data\\Coursera\\Getting and Cleaning Data\\Project\\UCI HAR Dataset\\test
-
-#install.packages("data.table")
-#library(data.table)
-
 
 # Step 1
 #read test data
@@ -21,7 +14,7 @@ subject_test_tb <- read.table(subject_test)
 
 
 #bind the test data - data (features), activity codes & subject
-t1 <- cbind(subject_test_tb, y_test_tb, X_test_tb)
+test_data <- cbind(subject_test_tb, y_test_tb, X_test_tb)
 
 
 #read train data
@@ -33,28 +26,12 @@ X_train_tb <- read.table(X_train)
 y_train_tb <- read.table(y_train)
 subject_train_tb <- read.table(subject_train)
 
-
-#print(nrow(X_train_tb))
-#print(ncol(X_train_tb))
-
-#print(nrow(y_train_tb))
-#print(ncol(y_train_tb))
-#print(unique(y_train_tb))
-
-
-#print(nrow(subject_train_tb))
-#print(ncol(subject_train_tb))
-#print(unique(subject_train_tb))
-
 #bind the train data - data (features), activity codes & subject
-t2 <- cbind(subject_train_tb, y_train_tb, X_train_tb)
+train_data <- cbind(subject_train_tb, y_train_tb, X_train_tb)
 
 # combine the test & train dataset
-t3 <- rbind(t1, t2)
+test_train_dataset <- rbind(test_data, train_data)
 
-#print(nrow(t3))
-#print(ncol(t3))
-#print(head(t))
 
 #add the col names (from features.txt file) to the merged dataset
 features.txt.file = ".\\UCI HAR Dataset\\features.txt"
@@ -69,19 +46,17 @@ adf <- as.data.frame(a)
 tr <- t(adf)
 
 
-colnames(t3)[3:563] <- tr
-colnames(t3)[1:2] <- c("subject", "activity")
-
-#print(colnames(t3))
+colnames(test_train_dataset)[3:563] <- tr
+colnames(test_train_dataset)[1:2] <- c("subject", "activity")
 
 
 #extract the colums for std & mean
-std_cols <- grep("*std()*", colnames(t3))
-mean_cols <- grep("*mean()*", colnames(t3))
+std_cols <- grep("*std()*", colnames(test_train_dataset))
+mean_cols <- grep("*mean()*", colnames(test_train_dataset))
 
 std_mean_cols <- c(1, 2, mean_cols, std_cols)
 
-step2DataSet <- t3[std_mean_cols]
+step2DataSet <- test_train_dataset[std_mean_cols]
 
 #step3 data set
 
