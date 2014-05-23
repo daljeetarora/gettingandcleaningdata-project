@@ -1,4 +1,5 @@
 
+# adding in guthub
 
 #C:\\Amdocs\\Big Data\\Coursera\\Getting and Cleaning Data\\Project\\UCI HAR Dataset\\test
 
