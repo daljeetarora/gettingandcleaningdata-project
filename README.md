@@ -6,7 +6,7 @@ gettingandcleaningdata-project
 ###tertiary line
 
 ==================================================================
-run_analyis.R 
+#run_analyis.R 
 ==================================================================
 Daljeet Arora
 daljeet_arora@yahoo.com
