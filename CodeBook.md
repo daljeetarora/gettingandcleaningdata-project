@@ -12,6 +12,5 @@
             
 #####tBodyAcc-mean()-X  17
 
-
     Time Domain - Body Accelerometer Signal in X Direction
             
