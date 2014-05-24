@@ -55,8 +55,17 @@ The script uses the raw data present in different files. Refer to the Raw Data s
 The script run_analysis.R is based on the following steps:
 (the same steps are for test data)
 
--Step 1:
 - reads in the data for training data for training set, training labels & subject
 - combines the above data, column wise to get the complete data for training
 - completed data for training and test are then combined row wise to get the merged data
 
+- updates the merged dataset with column names for each of the features column
+- extracts the columns contining only mean and standard deviation results
+- replaces the activity codes with activity labels
+- calculates the average of each of the columns from the above dataset
+- finally the average dataset is output to a file tidy_dataset.csv
+
+###License:
+I provide full freedom to the use of this dataset in publications. You can reference to my name if you 
+
+so desire.
