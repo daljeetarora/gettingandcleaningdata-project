@@ -13,6 +13,6 @@ Refer to 'Getting and Cleaning Data' course in Coursera.org for more details.
 
 ##About the course project:
 
-##Objective:
+###Objective:
 The course project aims to create a tiny dataset from the given raw data that represents the mean of values of all the features for each subject & activity.
 
