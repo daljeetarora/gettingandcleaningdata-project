@@ -1,12 +1,12 @@
 gettingandcleaningdata-project
 ==============================
 
-##run_analyis.R 
+
 Daljeet Arora
 daljeet_arora@yahoo.com
 
 
-The readme presents the assumptions and steps used to generate a tidy dataset as per the requirements stated in the course project in 'Getting and Cleaning Data' course in Coursera.org. 
+This readme presents the assumptions and steps used to generate a tidy dataset as per the requirements stated in the course project in 'Getting and Cleaning Data' course in Coursera.org. 
 
 Refer to 'Getting and Cleaning Data' course in Coursera.org for more details.
 
@@ -58,7 +58,6 @@ The script run_analysis.R is based on the following steps:
 - reads in the data for training data for training set, training labels & subject
 - combines the above data, column wise to get the complete data for training
 - completed data for training and test are then combined row wise to get the merged data
-
 - updates the merged dataset with column names for each of the features column
 - extracts the columns contining only mean and standard deviation results
 - replaces the activity codes with activity labels
@@ -66,6 +65,4 @@ The script run_analysis.R is based on the following steps:
 - finally the average dataset is output to a file tidy_dataset.csv
 
 ###License:
-I provide full freedom to the use of this dataset in publications. You can reference to my name if you 
-
-so desire.
+I provide full freedom to the use of this dataset in publications. You can reference to my name if you so desire.
