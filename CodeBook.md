@@ -17,9 +17,9 @@
 
 ####tBodyAcc-mean()-Y   17
 
-Time Domain - Body Accelerometer Signal in Y Direction
+    Time Domain - Body Accelerometer Signal in Y Direction
 
 
 ####tBodyAcc-mean()-Z   17
 
-Time Domain - Body Accelerometer Signal in Z Direction
+    Time Domain - Body Accelerometer Signal in Z Direction
