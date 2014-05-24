@@ -19,7 +19,6 @@ The course project aims to create a tiny dataset from the given raw data that re
 
 ###Raw Data:
 
-
 The data for the project represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -39,5 +38,17 @@ The obtained dataset has been processed and each record reprsents:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
+###The dataset includes the following files:
+
+- 'README.md'
+
+- 'run_analysis.R': Contains the processing logic that produces the tidy set
+
+- 'tidy_set.csv': Tidy dataset
+
+- 'codebook.md': Describes the variables, the data and transformations applied to define the tidy dataset 
+
+The script uses the raw data present in different files. Refer to the Raw Data section for more details
 
 
