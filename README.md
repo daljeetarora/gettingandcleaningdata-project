@@ -11,9 +11,7 @@ The readme presents the assumptions and steps used to generate a tidy dataset as
 Refer to 'Getting and Cleaning Data' course in Coursera.org for more details.
 
 
-##About the course project:
-
-###Objective:
+###Objective of the course project:
 The course project aims to create a tiny dataset from the given raw data that represents the mean of values of all the features for each subject & activity.
 
 
