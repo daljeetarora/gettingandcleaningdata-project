@@ -5,12 +5,10 @@ gettingandcleaningdata-project
 
 ###tertiary line
 
-==================================================================
-#run_analyis.R 
-==================================================================
+##run_analyis.R 
 Daljeet Arora
 daljeet_arora@yahoo.com
-==================================================================
+
 
 The readme presents the assumptions and steps used to generate a tidy dataset as per the requirements stated in the course project in 'Getting and Cleaning Data' course in Coursera.org. 
 
