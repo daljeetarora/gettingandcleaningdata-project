@@ -65,4 +65,4 @@ The script run_analysis.R is based on the following steps:
 - finally the average dataset is output to a file tidy_dataset.csv
 
 ###License:
-I provide full freedom to the use of this dataset in publications. You can reference to my name if you so desire.
+I provide full freedom to the use of this dataset in publications. You can provide reference to my name if you so desire.
