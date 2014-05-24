@@ -50,3 +50,13 @@ The obtained dataset has been processed and each record reprsents:
 The script uses the raw data present in different files. Refer to the Raw Data section for more details
 
 
+###How the script works: 
+
+The script run_analysis.R is based on the following steps:
+(the same steps are for test data)
+
+-Step 1:
+- reads in the data for training data for training set, training labels & subject
+- combines the above data, column wise to get the complete data for training
+- completed data for training and test are then combined row wise to get the merged data
+
