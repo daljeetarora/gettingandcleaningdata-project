@@ -10,7 +10,16 @@
             2 LAYING
             3 UPSTAIRS
             
-#####tBodyAcc-mean()-X  17
+####tBodyAcc-mean()-X  17
 
     Time Domain - Body Accelerometer Signal in X Direction
             
+
+####tBodyAcc-mean()-Y   17
+
+Time Domain - Body Accelerometer Signal in Y Direction
+
+
+####tBodyAcc-mean()-Z   17
+
+Time Domain - Body Accelerometer Signal in Z Direction
