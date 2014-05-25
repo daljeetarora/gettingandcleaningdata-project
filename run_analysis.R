@@ -1,5 +1,4 @@
 
-
 # Step 1
 #read test data
 X_test  = ".\\UCI HAR Dataset\\test\\X_test.txt"
