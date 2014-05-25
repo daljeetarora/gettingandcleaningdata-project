@@ -61,6 +61,7 @@ The script run_analysis.R is based on the following steps:
 - updates the merged dataset with column names for each of the features column
 - extracts the columns contining only mean and standard deviation results
 - replaces the activity codes with activity labels
+- makes the column names more readable by removing the brackets
 - calculates the average of each of the columns from the above dataset
 - finally the average dataset is output to a file tidy_dataset.csv
 
