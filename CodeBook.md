@@ -1,4 +1,4 @@
-##			Dat Dictionary - Coursera Getting and Cleaning Data Project: Tidy Dataset
+###			Data Dictionary - Coursera Getting and Cleaning Data Project: Tidy Dataset
 
 ####subject 2
 
@@ -11,6 +11,9 @@
             1 WALKING
             2 LAYING
             3 UPSTAIRS
+            
+            
+            
             
 ####tBodyAcc-mean()-X  17
 
@@ -31,26 +34,12 @@ Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
 ###fBodyBodyGyroJerkMag-meanFreq()		Frequency Domain - Body Body Gyroscope Jerk Magnitude Frequency Signal
 
 
-tBodyAcc-mean-X		
-Mean of - Time Domain - Body Acceleration Signal in X Direction
-tBodyAcc-mean-Y
+####test
+
+####tBodyAcc-mean-X		17
+		Mean of - Time Domain - Body Acceleration Signal in X Direction
+####tBodyAcc-mean-Y		17
 		Mean of - Time Domain - Body Acceleration Signal in Y Direction
-tBodyAcc-mean-Z
+####tBodyAcc-mean-Z		17
+
 		Mean of - Time Domain - Body Acceleration Signal in Z Direction
-
-
-
-
-tBodyAcc-mean-X	
-Mean of - Time Domain - Body Acceleration Signal in X Direction
-tBodyAcc-mean-Y
-		Mean of - Time Domain - Body Acceleration Signal in Y Direction
-tBodyAcc-mean-Z
-		Mean of - Time Domain - Body Acceleration Signal in Z Direction
-tGravityAcc-mean-X
-		Mean of - Time Domain - Gravity Acceleration Signal in X Direction
-tGravityAcc-mean-Y
-		Mean of - Time Domain - Gravity Acceleration Signal in Y Direction
-tGravityAcc-mean-Z
-
-		Mean of - Time Domain - Gravity Acceleration Signal in Z Direction
