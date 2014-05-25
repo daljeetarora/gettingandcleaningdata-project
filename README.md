@@ -71,6 +71,7 @@ The script run_analysis.R is based on the following steps:
 - the script and the Samsing data are both present in the working directory (not downloaded by the script)
 - manual review of the files was done - hence possible error conditions check have been skipped
 - the output file tidy_dataset.txt is placed in the working directory
+- the project has been developed on Windows 7 Enterprise Service Pack 1 (64-bit)
 
 
 ###License:
