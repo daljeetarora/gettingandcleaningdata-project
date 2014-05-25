@@ -1,7 +1,5 @@
 
 
-#C:\\Amdocs\\Big Data\\Coursera\\Getting and Cleaning Data\\Project\\UCI HAR Dataset\\test
-
 # Step 1
 #read test data
 X_test  = ".\\UCI HAR Dataset\\test\\X_test.txt"
@@ -84,13 +82,14 @@ for(i in 1:nrow(step2DataSet)) {
     step2DataSet[i, 2] <- activityLabel
 
 }
-#print(colnames(t4))
 
 #step 3 completed  
 
-#as.data.frame(step2DataSet[, mean(step2DataSet[,81])], by = c(subject, activity))
+#step 4 - remove () from the column names. Rest of the nomenclature seems fine
+colnames(step2DataSet) <- sub("\\(\\)", "", colnames(step2DataSet))
 
-# step 5 -
+
+# step 5
 activity_index <- 1
 subject_index <- 1
 
@@ -122,7 +121,10 @@ for(activity_index in 1:nrow(activity_labels_tb)) {
   }
 }
 
-#got the final tidy dataset/ write it into csv file
-opfile_csv <- ".\\op.csv"
-write.csv(avgDataSet, opfile_csv, row.names = FALSE, quote = FALSE)
 
+#got the final tidy dataset/ write it into csv file
+#tidy_dataset.csv <- ".\\tidy_dataset.csv"
+#write.csv(avgDataSet, tidy_dataset.csv, row.names = FALSE, quote = FALSE)
+
+tidy_dataset.txt <- ".\\tidy_dataset.txt"
+write.table(avgDataSet, tidy_dataset.txt, row.names = FALSE, quote = FALSE, sep = "\t")
