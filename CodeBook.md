@@ -1,4 +1,4 @@
-###			Dat Dict - Coursera Getting and Cleaning Data Project: Tidy Dataset
+##			Dat Dictionary - Coursera Getting and Cleaning Data Project: Tidy Dataset
 
 ####subject 2
 
