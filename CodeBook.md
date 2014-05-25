@@ -35,9 +35,8 @@ Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
 
 
 ####test
-
 ####tBodyAcc-mean-X		17
-		Mean of - Time Domain - Body Acceleration Signal in X Direction
+Mean of - Time Domain - Body Acceleration Signal in X Direction
 ####tBodyAcc-mean-Y		17
 		Mean of - Time Domain - Body Acceleration Signal in Y Direction
 ####tBodyAcc-mean-Z		17
@@ -50,147 +49,147 @@ Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
 		Mean of - Time Domain - Gravity Acceleration Signal in Z Direction
 ####tBodyAccJerk-mean-X	17
 		Mean of - Time Domain - Body Acceleration Jerk Signal in X Direction
-####tBodyAccJerk-mean-Y
+####tBodyAccJerk-mean-Y	17
 		Mean of - Time Domain - Body Acceleration Jerk Signal in Y Direction
-####tBodyAccJerk-mean-Z
+####tBodyAccJerk-mean-Z	17
 		Mean of - Time Domain - Body Acceleration Jerk Signal in Z Direction
-####tBodyGyro-mean-X
+####tBodyGyro-mean-X		17
 		Mean of - Time Domain - Body Gyroscope Signal in X Direction
-####tBodyGyro-mean-Y
+####tBodyGyro-mean-Y		17
 		Mean of - Time Domain - Body Gyroscope Signal in Y Direction
-####tBodyGyro-mean-Z
+####tBodyGyro-mean-Z		17
 		Mean of - Time Domain - Body Gyroscope Signal in Z Direction
-####tBodyGyroJerk-mean-X
+####tBodyGyroJerk-mean-X	17
 		Mean of - Time Domain - Body Gyroscope Jerk Signal in X Direction
-####tBodyGyroJerk-mean-Y
+####tBodyGyroJerk-mean-Y	17
 		Mean of - Time Domain - Body Gyroscope Jerk Signal in Y Direction
-####tBodyGyroJerk-mean-Z
+####tBodyGyroJerk-mean-Z	17
 		Mean of - Time Domain - Body Gyroscope Jerk Signal in Z Direction
-####tBodyAccMag-mean
+####tBodyAccMag-mean	17
 		Mean of - Time Domain - Body Acceleration Magnitude Signal
-####tGravityAccMag-mean
+####tGravityAccMag-mean	17
 		Mean of - Time Domain - Gravity Acceleration Magnitude Signal
-####tBodyAccJerkMag-mean
+####tBodyAccJerkMag-mean	17
 		Mean of - Time Domain - Body Acceleration Jerk Magnitude Signal
-####tBodyGyroMag-mean
+####tBodyGyroMag-mean	17
 		Mean of - Time Domain - Body Gyroscope Magnitude Signal
-####tBodyGyroJerkMag-mean
+####tBodyGyroJerkMag-mean	17
 		Mean of - Time Domain - Body Gyroscope Jerk Magnitude Signal
-####fBodyAcc-mean-X
+####fBodyAcc-mean-X		17
 		Mean of - Frequency Domain - Body Acceleration Signal in X Direction
-####fBodyAcc-mean-Y
+####fBodyAcc-mean-Y		17
 		Mean of - Frequency Domain - Body Acceleration Signal in Y Direction
-####fBodyAcc-mean-Z
+####fBodyAcc-mean-Z		17
 		Mean of - Frequency Domain - Body Acceleration Signal in Z Direction
-####fBodyAcc-meanFreq-X
+####fBodyAcc-meanFreq-X	17
 		Mean of - Frequency Domain - Body Acceleration Frequency Signal in X Direction
-####fBodyAcc-meanFreq-Y
+####fBodyAcc-meanFreq-Y	17
 		Mean of - Frequency Domain - Body Acceleration Frequency Signal in Y Direction
-####fBodyAcc-meanFreq-Z
+####fBodyAcc-meanFreq-Z	17
 		Mean of - Frequency Domain - Body Acceleration Frequency Signal in Z Direction
-####fBodyAccJerk-mean-X
+####fBodyAccJerk-mean-X	17
 		Mean of - Frequency Domain - Body Acceleration Jerk Signal in X Direction
-####fBodyAccJerk-mean-Y
+####fBodyAccJerk-mean-Y	17
 		Mean of - Frequency Domain - Body Acceleration Jerk Signal in Y Direction
-####fBodyAccJerk-mean-Z
+####fBodyAccJerk-mean-Z	17
 		Mean of - Frequency Domain - Body Acceleration Jerk Signal in Z Direction
-####fBodyAccJerk-meanFreq-X
+####fBodyAccJerk-meanFreq-X		17
 		Mean of - Frequency Domain - Body Acceleration Jerk Frequency Signal in X Direction
-####fBodyAccJerk-meanFreq-Y
+####fBodyAccJerk-meanFreq-Y		17
 		Mean of - Frequency Domain - Body Acceleration Jerk Frequency Signal in Y Direction
-####fBodyAccJerk-meanFreq-Z
+####fBodyAccJerk-meanFreq-Z		17
 		Mean of - Frequency Domain - Body Acceleration Jerk Frequency Signal in Z Direction
-####fBodyGyro-mean-X
+####fBodyGyro-mean-X			17
 		Mean of - Frequency Domain - Body Gyroscope Signal in X Direction
-####fBodyGyro-mean-Y
+####fBodyGyro-mean-Y			17
 		Mean of - Frequency Domain - Body Gyroscope Signal in Y Direction
-####fBodyGyro-mean-Z	
+####fBodyGyro-mean-Z			17
 		Mean of - Frequency Domain - Body Gyroscope Signal in Z Direction
-####fBodyGyro-meanFreq-X
+####fBodyGyro-meanFreq-X		17
 		Mean of - Frequency Domain - Body Gyroscope Frequency Signal in X Direction
-####fBodyGyro-meanFreq-Y
+####fBodyGyro-meanFreq-Y		17
 		Mean of - Frequency Domain - Body Gyroscope Frequency Signal in Y Direction
-####fBodyGyro-meanFreq-Z
+####fBodyGyro-meanFreq-Z		17
 		Mean of - Frequency Domain - Body Gyroscope Frequency Signal in Z Direction
-####fBodyAccMag-mean
+####fBodyAccMag-mean		17
 		Mean of - Frequency Domain - Body Acceleration Magnitude Signal
-####fBodyAccMag-meanFreq
+####fBodyAccMag-meanFreq		17
 		Mean of - Frequency Domain - Body Acceleration Magnitude Frequency Signal
-####fBodyBodyAccJerkMag-mean
+####fBodyBodyAccJerkMag-mean	17
 		Mean of - Frequency Domain - Body Body Acceleration Jerk Magnitude Signal
-####fBodyBodyAccJerkMag-meanFreq
+####fBodyBodyAccJerkMag-meanFreq	17
 		Mean of - Frequency Domain - Body Body Acceleration Jerk Magnitude Frequency Signal
-####fBodyBodyGyroMag-mean
+####fBodyBodyGyroMag-mean		17
 		Mean of - Frequency Domain - Body Body Gyroscope Magnitude Signal
-####fBodyBodyGyroMag-meanFreq
+####fBodyBodyGyroMag-meanFreq	17
 		Mean of - Frequency Domain - Body Body Gyroscope Magnitude Frequency Signal
-####fBodyBodyGyroJerkMag-mean
+####fBodyBodyGyroJerkMag-mean	17
 		Mean of - Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
-####fBodyBodyGyroJerkMag-meanFreq
+####fBodyBodyGyroJerkMag-meanFreq		17
 		Mean of - Frequency Domain - Body Body Gyroscope Jerk Magnitude Frequency Signal
-####tBodyAcc-std-X
+####tBodyAcc-std-X	17
 		Standard Deviation of - Time Domain - Body Acceleration Signal in X Direction
-####tBodyAcc-std-Y
+####tBodyAcc-std-Y	17
 		Standard Deviation of - Time Domain - Body Acceleration Signal in Y Direction
-####tBodyAcc-std-Z
+####tBodyAcc-std-Z	17
 		Standard Deviation of - Time Domain - Body Acceleration Signal in Z Direction
-####tGravityAcc-std-X
+####tGravityAcc-std-X		17
 		Standard Deviation of - Time Domain - Gravity Acceleration Signal in X Direction
-####tGravityAcc-std-Y
+####tGravityAcc-std-Y		17
 		Standard Deviation of - Time Domain - Gravity Acceleration Signal in Y Direction
-####tGravityAcc-std-Z
+####tGravityAcc-std-Z		17
 		Standard Deviation of - Time Domain - Gravity Acceleration Signal in Z Direction
-####tBodyAccJerk-std-X	
+####tBodyAccJerk-std-X		17
 		Standard Deviation of - Time Domain - Body Acceleration Jerk Signal in X Direction
-####tBodyAccJerk-std-Y	
+####tBodyAccJerk-std-Y		17
 		Standard Deviation of - Time Domain - Body Acceleration Jerk Signal in Y Direction
-####tBodyAccJerk-std-Z	
+####tBodyAccJerk-std-Z		17
 		Standard Deviation of - Time Domain - Body Acceleration Jerk Signal in Z Direction
-####tBodyGyro-std-X
+####tBodyGyro-std-X	17
 		Standard Deviation of - Time Domain - Body Gyroscope Signal in X Direction
-####tBodyGyro-std-Y
+####tBodyGyro-std-Y	17
 		Standard Deviation of - Time Domain - Body Gyroscope Signal in Y Direction
-####tBodyGyro-std-Z
+####tBodyGyro-std-Z	17
 		Standard Deviation of - Time Domain - Body Gyroscope Signal in Z Direction
-####tBodyGyroJerk-std-X
+####tBodyGyroJerk-std-X	17
 		Standard Deviation of - Time Domain - Body Gyroscope Jerk Signal in X Direction
-####tBodyGyroJerk-std-Y
+####tBodyGyroJerk-std-Y	17
 		Standard Deviation of - Time Domain - Body Gyroscope Jerk Signal in Y Direction
-####tBodyGyroJerk-std-Z
+####tBodyGyroJerk-std-Z	17
 		Standard Deviation of - Time Domain - Body Gyroscope Jerk Signal in Z Direction
-####tBodyAccMag-std
+####tBodyAccMag-std	17
 		Standard Deviation of - Time Domain - Body Acceleration Magnitude Signal
-####tGravityAccMag-std
+####tGravityAccMag-std	17
 		Standard Deviation of - Time Domain - Gravity Acceleration Magnitude Signal
-####tBodyAccJerkMag-std
+####tBodyAccJerkMag-std	17
 		Standard Deviation of - Time Domain - Body Acceleration Jerk Magnitude Signal
-####tBodyGyroMag-std	
+####tBodyGyroMag-std		17
 		Standard Deviation of - Time Domain - Body Gyroscope Magnitude Signal
-####tBodyGyroJerkMag-std
+####tBodyGyroJerkMag-std	17
 		Standard Deviation of - Time Domain - Body Gyroscope Jerk Magnitude Signal
-####fBodyAcc-std-X
+####fBodyAcc-std-X	17
 		Standard Deviation of - Frequency Domain - Body Acceleration Signal in X Direction
-####fBodyAcc-std-Y
+####fBodyAcc-std-Y	17
 		Standard Deviation of - Frequency Domain - Body Acceleration Signal in Y Direction
-####fBodyAcc-std-Z
+####fBodyAcc-std-Z	17
 		Standard Deviation of - Frequency Domain - Body Acceleration Signal in Z Direction
-####fBodyAccJerk-std-X	
+####fBodyAccJerk-std-X		17
 		Standard Deviation of - Frequency Domain - Body Acceleration Jerk Signal in X Direction
-####fBodyAccJerk-std-Y
+####fBodyAccJerk-std-Y		17
 		Standard Deviation of - Frequency Domain - Body Acceleration Jerk Signal in Y Direction
-####fBodyAccJerk-std-Z	
+####fBodyAccJerk-std-Z		17
 		Standard Deviation of - Frequency Domain - Body Acceleration Jerk Signal in Z Direction
-####fBodyGyro-std-X
+####fBodyGyro-std-X		17
 		Standard Deviation of - Frequency Domain - Body Gyroscope Signal in X Direction
-####fBodyGyro-std-Y
+####fBodyGyro-std-Y		17
 		Standard Deviation of - Frequency Domain - Body Gyroscope Signal in Y Direction
-####fBodyGyro-std-Z
+####fBodyGyro-std-Z		17
 		Standard Deviation of - Frequency Domain - Body Gyroscope Signal in Z Direction
-####fBodyAccMag-std
+####fBodyAccMag-std		17
 		Standard Deviation of - Frequency Domain - Body Acceleration Magnitude Signal
-####fBodyBodyAccJerkMag-std	
+####fBodyBodyAccJerkMag-std		17
 		Standard Deviation of - Frequency Domain - Body Body Acceleration Jerk Magnitude Signal
-####fBodyBodyGyroMag-std
+####fBodyBodyGyroMag-std		17
 		Standard Deviation of - Frequency Domain - Body Body Gyroscope Magnitude Signal
-####fBodyBodyGyroJerkMag-std
+####fBodyBodyGyroJerkMag-std	17
 		Standard Deviation of - Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
