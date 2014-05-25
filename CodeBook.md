@@ -23,3 +23,32 @@
 ####tBodyAcc-mean()-Z   17
 
     Time Domain - Body Accelerometer Signal in Z Direction
+
+###fBodyBodyGyroJerkMag-mean()		
+Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
+###fBodyBodyGyroJerkMag-meanFreq()		Frequency Domain - Body Body Gyroscope Jerk Magnitude Frequency Signal
+
+
+tBodyAcc-mean-X		
+Mean of - Time Domain - Body Acceleration Signal in X Direction
+tBodyAcc-mean-Y
+		Mean of - Time Domain - Body Acceleration Signal in Y Direction
+tBodyAcc-mean-Z
+		Mean of - Time Domain - Body Acceleration Signal in Z Direction
+
+
+
+
+tBodyAcc-mean-X	
+Mean of - Time Domain - Body Acceleration Signal in X Direction
+tBodyAcc-mean-Y
+		Mean of - Time Domain - Body Acceleration Signal in Y Direction
+tBodyAcc-mean-Z
+		Mean of - Time Domain - Body Acceleration Signal in Z Direction
+tGravityAcc-mean-X
+		Mean of - Time Domain - Gravity Acceleration Signal in X Direction
+tGravityAcc-mean-Y
+		Mean of - Time Domain - Gravity Acceleration Signal in Y Direction
+tGravityAcc-mean-Z
+
+		Mean of - Time Domain - Gravity Acceleration Signal in Z Direction
