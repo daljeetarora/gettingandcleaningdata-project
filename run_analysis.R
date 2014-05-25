@@ -47,7 +47,7 @@ colnames(test_train_dataset)[3:563] <- features_txt_names_df
 colnames(test_train_dataset)[1:2] <- c("subject", "activity")
 
 
-#extract the colums for std & mean
+#step 2 - extract the colums for std & mean
 std_cols <- grep("*std()*", colnames(test_train_dataset))
 mean_cols <- grep("*mean()*", colnames(test_train_dataset))
 
