@@ -63,13 +63,14 @@ The script run_analysis.R is based on the following steps:
 - replaces the activity codes with activity labels
 - makes the column names more readable by removing the brackets
 - calculates the average of each of the columns from the above dataset
-- finally the average dataset is output to a file tidy_dataset.csv
+- finally the average dataset is output to a file tidy_dataset.txt
 
 
 ###Notes & Assumptions
 
 - the script and the Samsing data are both present in the working directory (not downloaded by the script)
-- manual review of the files was done - hence possible error conditions check have been skipped 
+- manual review of the files was done - hence possible error conditions check have been skipped
+- the output file tidy_dataset.txt is placed in the working directory
 
 
 ###License:
