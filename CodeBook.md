@@ -14,7 +14,7 @@
         
             
 ####tBodyAcc-mean-X		17
-Mean of - Time Domain - Body Acceleration Signal in X Direction
+		Mean of - Time Domain - Body Acceleration Signal in X Direction
 ####tBodyAcc-mean-Y		17
 		Mean of - Time Domain - Body Acceleration Signal in Y Direction
 ####tBodyAcc-mean-Z		17
