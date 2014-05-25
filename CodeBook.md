@@ -11,30 +11,8 @@
             1 WALKING
             2 LAYING
             3 UPSTAIRS
+        
             
-            
-            
-            
-####tBodyAcc-mean()-X  17
-
-    Time Domain - Body Accelerometer Signal in X Direction
-            
-
-####tBodyAcc-mean()-Y   17
-
-    Time Domain - Body Accelerometer Signal in Y Direction
-
-
-####tBodyAcc-mean()-Z   17
-
-    Time Domain - Body Accelerometer Signal in Z Direction
-
-###fBodyBodyGyroJerkMag-mean()		
-Frequency Domain - Body Body Gyroscope Jerk Magnitude Signal
-###fBodyBodyGyroJerkMag-meanFreq()		Frequency Domain - Body Body Gyroscope Jerk Magnitude Frequency Signal
-
-
-####test
 ####tBodyAcc-mean-X		17
 Mean of - Time Domain - Body Acceleration Signal in X Direction
 ####tBodyAcc-mean-Y		17
